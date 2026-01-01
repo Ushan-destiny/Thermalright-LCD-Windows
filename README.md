@@ -50,4 +50,4 @@ A lightweight, resource-efficient Python driver for Thermalright CPU Cooler LCD 
 
 ## Credits
 Based on the original work by [MathieuxHugo](https://github.com/MathieuxHugo/digital_thermal_right_lcd).
-Ported to Windows with direct DLL drivers by [Your Name].
+Ported to Windows with direct DLL drivers by Ushan-destiny.
