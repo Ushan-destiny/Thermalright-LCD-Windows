@@ -1,0 +1,40 @@
+# --- Python Basics ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments ---
+# Ignores your local python installation folder
+.env
+.venv
+env/
+venv/
+ENV/
+
+# --- IDE Settings ---
+# Ignores VS Code and PyCharm local settings
+.vscode/
+.idea/
+*.swp
+
+# --- Distribution / Build Artifacts ---
+# If you ever decide to compile to EXE later
+build/
+dist/
+*.spec
+*.manifest
+
+# --- Project Specifics ---
+# Ignore crash logs or temporary error files
+*.log
+pip-log.txt
+
+# --- CRITICAL: Whitelist DLLs ---
+# Standard python ignore files sometimes block DLLs. 
+# We explicitly ALLOW these because your driver needs them to run.
+!src/*.dll
+
+# --- Optional: User Config ---
+# Currently, we commit config.json so users have a default.
+# If you later decide users should not commit their personal colors, uncomment this:
+# config.json
